@@ -12,4 +12,4 @@ RUN php composer.phar install
 
 USER nobody
 EXPOSE 6379
-CMD php example/server.php 6379
+CMD php bin/redis-server.php
